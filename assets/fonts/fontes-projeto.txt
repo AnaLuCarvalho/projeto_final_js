@@ -1,0 +1,20 @@
+
+CABIN:
+
+
+https://fonts.google.com/specimen/Cabin?query=CABIN
+
+----------------------------------------------------------
+
+NANUM GOTHIC:
+
+
+https://fonts.google.com/specimen/Nanum+Gothic?query=nanum
+
+
+----------------------------------------------------------
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin&family=Nanum+Gothic&display=swap" rel="stylesheet">

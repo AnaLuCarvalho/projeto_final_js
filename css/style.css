@@ -1,0 +1,209 @@
+body {
+    font-family: 'Cabin', 'Nanum Gothic', Arial, sans-serif;
+    text-align: center;
+    margin: 0px;  
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #333;
+    color: rgb(172, 130, 130);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+}
+
+
+.menu{ 
+    width: 100%; 
+    height: 15px;
+    background: #ffffff;
+    padding: 20px 0px 40px 40px;
+    position: fixed;
+    
+}
+.menu-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu-nav li{
+    margin-top: 10px;
+    display:flex;
+    float:left;
+}
+
+.menu-nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    position: relative;
+}
+
+.menu-nav a:hover {
+    color: #4CAF50;
+}
+
+.menu-nav i {
+    margin-left: 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: auto;
+}
+
+.secao1{
+    background:url(../assets/img/jsc.jpg) no-repeat  center center;
+    background-size: cover;
+    height: 650px;
+}
+
+.secao1 h1{
+    padding: 300px 0 0 0;
+    text-align: left;
+    color:#ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'Cabin', sans-serif;
+}
+
+.secao1 h2{
+    text-align: left;
+    color:#ebebeb;
+    font-size: 18px;
+    font-weight:bolder;
+    font-family:'Nanum Gothic', sans-serif;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p.resultado {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#contentCalcMedias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nota {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.inputNota {
+    margin-top: 5px;
+}
+
+#btnSituacao {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#btnSituacao:hover {
+    background-color: #45a049;
+}
+
+.resultado-ok {
+    color: #4CAF50; 
+}
+
+.resultado-erro {
+    color: #e74c3c; 
+}
+
+/* Calculadora Média *\
+
+/* Adicione estas regras ao seu arquivo CSS existente */
+
+#contentCalcMedias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#notaContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.inputNota {
+    width: 50px; /* Ajuste conforme necessário */
+}
+
+#btnSituacao {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#btnSituacao:hover {
+    background-color: #45a049;
+}
+
+#resultadoFinal {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0da484bad4.js" crossorigin="anonymous"></script>
+    <title>Projeto Final Java Script</title>
+</head>
+
+<body>
+
+    <header class="menu">        
+        <div>
+            <a class="logo" href="#"> <img src="assets/img/heart.svg" alt="logo-nubank"></a>
+        </div>
+
+        <nav class="menu-nav">
+            <ul>
+                <li><a href="#secao1">O Projeto</a></li>
+                <li><a href="#projeto1">Soma <i class="fas fa-chevron-down"></i></a></li>
+                <li><a href="#projeto2">Subtração<i class="fas fa-chevron-down"></i></a></li>
+                <li><a href="#projeto3">Multiplicação<i class="fas fa-chevron-down"></i></a></li>
+                <li><a href="#projeto4">Divisão<i class="fas fa-chevron-down"></i></a></li>
+                <li><a href="#projeto5">Calcule Sua Média</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+    <section class="secao1" id="secao1">
+        <h1>Módulo 3: Javascript</h1>
+        <h2>Este é o projeto de conclusão do módulo de Javascript do<br>
+            Ciclo Formativo Básico, uma parceria da PretaLab com o Santander.<br> Aqui
+            tivemos acesso ao conhecimento de lógica com Javascript: <br>variáveis e
+            constantes, operadores aritméticos e lógicos, <br>estruturas condicionais e
+            de repetição, manipulação de arrays e manipulação do DOM. <br> Este projetinho tem
+            como intuito demonstrar através da prática o conhecimento adquirido.</h2>        
+    </section>
+
+    <section class="soma"  id="projeto1">
+        <div id="content">
+        <h2>Calculadora Básica</h2>
+        <h3>Some aqui!</h3>
+        <input class="inputCalc" id="numero1Soma" type="number" required />
+        <input class="inputCalc" id="numero2Soma" type="number" required />
+        <button class="buttonCalc" onclick="somar()">SOMAR</button>
+        <p class="resultado" id="resultadoSoma">Resultado:</p>        
+    </section>    
+    
+
+    <section class="subtracao" id="projeto2">
+        <h3>Faça aqui sua subtração!</h3>
+        <input class="inputCalc" id="numero1Sub" type="number" required />
+        <input class="inputCalc" id="numero2Sub" type="number" required />
+        <button class="buttonCalc" onclick="subtrair()">SUBTRAIR</button>
+        <p class="resultado" id="resultadoSubtracao">Resultado: </p>
+    </section>
+
+    <section class="multiplicacao" id="projeto3">
+        <h3>Faça aqui sua multiplicação!</h3>
+        <input class="inputCalc" id="numero1Mult" type="number" required />
+        <input class="inputCalc" id="numero2Mult" type="number" required />
+        <button class="buttonCalc" onclick="multiplicar()">MULTIPLICAR</button>
+        <p class="resultado" id="resultadoMultiplicar">Resultado: </p>
+    </section>
+
+    <section class="divisao" id="projeto4">
+        <h3>Faça aqui sua divisão!  </h3>
+        <input class="inputCalc" id="numero1Div" type="number" required />
+        <input class="inputCalc" id="numero2Div" type="number" required />
+        <button class="buttonCalc" onclick="dividir()">DIVIDIR</button>
+        <p class="resultado" id="resultadoDivisao">Resultado: </p>
+    </section>
+
+    <section class="calcMedia" id="projeto5">       
+        <p id="resultadoFinal" class="resultado"></p>
+
+        <h2>Calculadora de Médias</h2>
+
+        <div id="contentCalcMedias">
+        <div id="notas">
+            <div class="nota">
+            <label for="nota1">Nota 1</label>
+            <input class="inputNota" id="nota1" type="number" required />
+            </div>
+
+            <div class="nota">
+            <label for="nota2">Nota 2</label>
+            <input class="inputNota" id="nota2" type="number" required />
+            </div>
+
+            <div class="nota">
+            <label for="nota3">Nota 3</label>
+            <input class="inputNota" id="nota3" type="number" required />
+            </div>
+
+            <div class="nota">
+            <label for="nota4">Nota 4</label>
+            <input class="inputNota" id="nota4" type="number" required />
+            </div>
+        </div>
+        
+        <button id="btnSituacao" onclick="calculaMedia()">
+            Qual a situação da estudante?
+        </button>
+    
+    </section>
+</div>
+    
+<script type="text/javascript" src="./js/calculadora.js"></script>
+<script type="text/javascript" src="./js/media.js"></script>
+</body>
+</html>
